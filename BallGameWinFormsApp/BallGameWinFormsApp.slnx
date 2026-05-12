@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="AngryBirdsWinFormsApp/AngryBirdsWinFormsApp.csproj" Id="6b882df4-507b-4ba3-ad38-c6096d50f277" />
+  <Project Path="BallCatcher/BallCatcher.csproj" Id="3fd97648-d563-457f-8189-390841d83cf9" />
+  <Project Path="BallGames.Common/BallGames.Common.csproj" Id="c4c2156a-91b9-4ad1-967d-7ce82f515378" />
+  <Project Path="BallGameWinFormsApp/BallGameWinFormsApp.csproj" />
+  <Project Path="BilliardBallsWinFormsApp/BilliardBallsWinFormsApp.csproj" Id="e6de983e-416e-4aef-9046-e19acb9f29de" />
+  <Project Path="DiffusionWinFormsApp/DiffusionWinFormsApp.csproj" Id="da6f2eac-aa53-450f-b865-7f23b388b7c7" />
+  <Project Path="FireworkWinFormsApp/FireworkWinFormsApp.csproj" Id="2b8971e1-ab24-4fd9-9d42-6033573c85ac" />
+  <Project Path="FruitNinjaWinFormsApp/FruitNinjaWinFormsApp.csproj" Id="5a6217b1-3d53-4216-b41a-fc574930ff87" />
+</Solution>
