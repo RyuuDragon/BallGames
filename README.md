@@ -335,16 +335,16 @@ dotnet run
 
 Что применял в коде
 
-· ООП и наследование — иерархия из 5 классов: Ball → RandomSizeAndPointBall → RandomMoveBall → BilliardBall / Bird / Pig. Каждая игра расширяет базовые классы под свою механику.
-· Полиморфизм — ключевой принцип, на котором держится всё решение:
+- ООП и наследование — иерархия из 5 классов: Ball → RandomSizeAndPointBall → RandomMoveBall → BilliardBall / Bird / Pig. Каждая игра расширяет базовые классы под свою механику.
+- Полиморфизм — ключевой принцип, на котором держится всё решение:
     - Переопределение методов
     - Единый интерфейс для всех шаров: методы `Start()`, `Stop()`, `IsVisible()`, `OnForm()`, `IsNotStop()` работают одинаково для любого наследника. Это позволяет форме управлять списком `List<Ball>` (или `List<RandomMoveBall>`), не различая конкретные типы шаров.
-· События C# — event EventHandler<HitEventArgs> Hit для оповещения формы об ударе шара о стену.
-· Таймеры — System.Windows.Forms.Timer для игрового цикла (10 мс), спавна объектов (500 мс – 20 с), эффекта замедления.
-· Отрисовка через Paint — вся графика вынесена в обработчик OnPaint / Paint. Двойная буферизация через SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true) и Invalidate() для перерисовки.
-· Физика движения — векторы скорости vx/vy, гравитация G, затухание при отскоках, формула столкновения через расстояние между центрами.
-· Рисование через Graphics — FillEllipse для шаров, DrawLine для следа разреза в Fruit Ninja.
-· Линейный поиск и перебор — проверка попадания клика через IsVisible(), поиск упавших шаров через OnForm(), фильтрация по половинам экрана в Diffusion.
-· Работа с коллекциями — List<T>, удаление в обратном цикле for (int i = list.Count - 1; i >= 0; i--), AddRange().
+- События C# — event EventHandler<HitEventArgs> Hit для оповещения формы об ударе шара о стену.
+- Таймеры — System.Windows.Forms.Timer для игрового цикла (10 мс), спавна объектов (500 мс – 20 с), эффекта замедления.
+- Отрисовка через Paint — вся графика вынесена в обработчик OnPaint / Paint. Двойная буферизация через SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true) и Invalidate() для перерисовки.
+- Физика движения — векторы скорости vx/vy, гравитация G, затухание при отскоках, формула столкновения через расстояние между центрами.
+- Рисование через Graphics — FillEllipse для шаров, DrawLine для следа разреза в Fruit Ninja.
+- Линейный поиск и перебор — проверка попадания клика через IsVisible(), поиск упавших шаров через OnForm(), фильтрация по половинам экрана в Diffusion.
+- Работа с коллекциями — List<T>, удаление в обратном цикле for (int i = list.Count - 1; i >= 0; i--), AddRange().
 
 ---
