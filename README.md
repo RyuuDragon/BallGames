@@ -312,8 +312,12 @@ dotnet run
 Сделайте скриншоты каждой игры и замените заглушки
 
 | Billiard | Diffusion | Angry Birds |
+|---|---|---|
+| <img width="826" height="538" alt="Billiard" src="https://github.com/user-attachments/assets/f5b56864-aabe-46ee-87eb-df4a06c29315" /> | <img width="830" height="544" alt="Diffusion" src="https://github.com/user-attachments/assets/3362f01a-9043-4bad-a6cc-f919057e1a4e" /> | <img width="824" height="636" alt="AngryBirds" src="https://github.com/user-attachments/assets/f1179d8d-5f0b-4e81-b044-9cdb93e5074b" /> |
 
 | Fruit Ninja | Firework | BallCatcher |
+|---|---|---|
+| <img width="794" height="748" alt="FruitNinja" src="https://github.com/user-attachments/assets/ee61d6f9-258b-4990-a0eb-e0730ff34091" /> | <img width="798" height="446" alt="Firework" src="https://github.com/user-attachments/assets/a3785272-d9ac-4cdb-aaac-527118e69a32" /> | <img width="974" height="640" alt="Catcher" src="https://github.com/user-attachments/assets/086f47ef-f4db-4fec-877e-829c320702c2" /> |
 
 ---
 
